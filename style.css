@@ -100,8 +100,28 @@ a {
 
 button, .box {
     background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding: 25px;
+    gap: 75px;
     margin-bottom: 50px;
-    border-radius: 10px;
+}
+
+.bottom-button {
+    border: 2px solid white;
+    padding: 0px 20px;
+}
+
+.sign-up-text {
+    width: 400px;
+    font-weight: bold;
 }
 
 .quote {
