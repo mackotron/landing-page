@@ -1,5 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, * :after {
+    box-sizing: inherit;
+}
+
 .hero, .footer {
     background-color: #1F2937 ;
+}
+
+body {
+    margin: 0px;
 }
 
 .description h1 {
@@ -17,34 +29,29 @@
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .links {
     display: flex;
     gap: 25px;
-    margin-right: 100px;
+    margin-left: 175px;
 }
 
 a {
     text-decoration: none;
 }
 
-.icon {
-    margin-left: 100px;
-}
-
 .under-header {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 100px;
     padding-bottom: 100px;
 }
 
 .under-header img {
-    margin-right: 100px;
-    margin-left: auto;
+    margin-left: 200px;
 }
 
 .content {
