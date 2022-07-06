@@ -14,6 +14,10 @@ body {
     margin: 0px;
 }
 
+.description {
+    width: 300px;
+}
+
 .description h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -58,6 +62,7 @@ a {
 .content {
     display: flex;
     align-items: center;
+    gap: 50px;
     flex-direction: column;
 }
 
@@ -76,6 +81,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 8px;
+    border: 2px solid blue;
 }
 
 .info h1 {
@@ -86,10 +92,18 @@ a {
 
 button, .box {
     background-color: #3882F6;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
